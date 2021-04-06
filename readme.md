@@ -1,4 +1,4 @@
-This is a node js app for TIC TAC TOE
+This is a node js app for TIC TAC TOE. This game uses Node JS and Socket IO to communicate to the 2 players
 to run this program you need to have Node JS install 
 
 once you have Node JS installed run the following command in a 
