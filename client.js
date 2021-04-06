@@ -1,6 +1,4 @@
 // Depedencies
-const http = require("http")
-const prompt = require('prompt');
 const readline = require('readline');
 // Read line boilerplate
 const lineReader = readline.createInterface({
@@ -25,6 +23,7 @@ io.on("message", (playerNum) => {
     io.on("win", msg => {
         win = true;
         console.log(msg);
+        process.exit();
     })
     // Prints the board when sent by server
     io.on("board", board => {
